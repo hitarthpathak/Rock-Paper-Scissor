@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="nav">
+    <div class="navbar">
 
         <h1>Rock Paper Scissor</h1>
 
@@ -20,48 +20,90 @@
 
     <div class="main-box">
 
-        <div class="box" id="rock">
+        <div class="player-box">
 
-            <img src="Images/Rock.jpg" alt="Image Not Available">
+            <span class="player">USER</span>
+
+            <div class="control-box">
+
+                <div class="box" id="user-rock">
+
+                    <img src="Images/Rock.jpg" alt="Image Not Available">
+
+                </div>
+
+                <div class="box" id="user-paper">
+
+                    <img src="Images/Paper.jpg" alt="Image Not Available">
+
+                </div>
+
+                <div class="box" id="user-scissor">
+
+                    <img src="Images/Scissor.jpg" alt="Image Not Available">
+
+                </div>
+
+            </div>
+
+            <div class="score">
+
+                <div id="user">
+
+                    <p id="user-score">0</p>
+
+                    <hr>
+
+                    <p>User Score</p>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="box" id="paper">
+        <div class="player-box">
 
-            <img src="Images/Paper.jpg" alt="Image Not Available">
+            <span class="player">COMPUTER</span>
+
+            <div class="control-box">
+
+                <div class="box" id="computer-rock">
+
+                    <img src="Images/Rock.jpg" alt="Image Not Available">
+
+                </div>
+
+                <div class="box" id="computer-paper">
+
+                    <img src="Images/Paper.jpg" alt="Image Not Available">
+
+                </div>
+
+                <div class="box" id="computer-scissor">
+
+                    <img src="Images/Scissor.jpg" alt="Image Not Available">
+
+                </div>
+
+            </div>
+
+            <div class="score">
+
+                <div id="computer">
+
+                    <p id="computer-score">0</p>
+
+                    <hr>
+
+                    <p>Computer Score</p>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="box" id="scissor">
-
-            <img src="Images/Scissor.jpg" alt="Image Not Available">
-
-        </div>
-
-    </div>
-
-    <div class="score">
-
-        <div id="user">
-
-            <p id="user-score">0</p>
-
-            <hr>
-
-            <p>User Score</p>
-
-        </div>
-
-        <div id="computer">
-
-            <p id="computer-score">0</p>
-
-            <hr>
-
-            <p>Computer Score</p>
-
-        </div>
-        
     </div>
 
     <p id="result">[ Play With Computer ]</p>
